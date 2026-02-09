@@ -43,3 +43,11 @@ First Case Study
 
 Rwanda – GDP growth trends following the 1994 genocide.
 
+
+Key Insight
+
+Rwanda experienced a sharp contraction in GDP growth in the mid-1990s
+following the 1994 genocide. The data shows a strong recovery phase
+in the late 1990s and early 2000s, indicating rapid economic stabilization.
+
+
