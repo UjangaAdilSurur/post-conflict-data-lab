@@ -1,13 +1,13 @@
-#post-conflict-data-lab
+##Post-conflict-data-lab
 
 
 A research-oriented data analysis repository focused on economic recovery patterns in post-conflict countries.
 
-Purpose
+## Purpose
 
 This lab explores macroeconomic recovery trends using publicly available datasets such as World Bank Open Data and IMF databases.
 
-The goal is to study:
+## The goal is to study:
 
 GDP recovery curves
 
@@ -17,7 +17,7 @@ Long-term growth trajectories
 
 Structural economic shifts
 
-Tools
+## Tools
 
 Python
 
@@ -37,14 +37,14 @@ scripts/ – Clean reproducible scripts
 
 Images/ – Visual outputs
 
-First Case Study
+## First Case Study
 
 
 
 Rwanda – GDP growth trends following the 1994 genocide.
 
 
-Key Insight
+## Key Insight
 
 Rwanda experienced a sharp contraction in GDP growth in the mid-1990s
 following the 1994 genocide. The data shows a strong recovery phase
@@ -58,6 +58,8 @@ This comparison examines GDP growth trajectories following major conflict period
 - Bosnia (War: 1992–1995) exhibits significant volatility and a slower stabilization phase.
 
 Vertical markers indicate the onset of major conflict periods.
+
+Both Rwanda and Bosnia experienced rapid post-conflict rebound in growth rates, returning to positive and above-baseline growth within one year of trough. This suggests that early post-conflict recovery in growth terms can be mechanically fast, even if longer-term structural stabilization differs.
 
 
 
