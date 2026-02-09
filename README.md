@@ -61,6 +61,9 @@ Vertical markers indicate the onset of major conflict periods.
 
 Both Rwanda and Bosnia experienced rapid post-conflict rebound in growth rates, returning to positive and above-baseline growth within one year of trough. This suggests that early post-conflict recovery in growth terms can be mechanically fast, even if longer-term structural stabilization differs.
 
+## Research Questions
+- How quickly do post-conflict economies return to positive growth?
+- How quickly do they exceed pre-conflict performance levels?
 
 
 
