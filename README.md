@@ -50,4 +50,15 @@ Rwanda experienced a sharp contraction in GDP growth in the mid-1990s
 following the 1994 genocide. The data shows a strong recovery phase
 in the late 1990s and early 2000s, indicating rapid economic stabilization.
 
+## Comparative Analysis: Rwanda vs Bosnia
+
+This comparison examines GDP growth trajectories following major conflict periods.
+
+- Rwanda (Genocide: 1994) shows a sharp contraction followed by rapid recovery.
+- Bosnia (War: 1992–1995) exhibits significant volatility and a slower stabilization phase.
+
+Vertical markers indicate the onset of major conflict periods.
+
+
+
 
