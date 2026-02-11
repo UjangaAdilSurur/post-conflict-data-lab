@@ -1,25 +1,203 @@
-## Post-conflict-data-lab
+## Post-Conflict Data Lab
+
+A simulation and empirical research project exploring economic recovery dynamics in post-conflict economies.
+
+This lab moves from real-world data analysis to structural macroeconomic modeling, focusing on how war affects capital accumulation, productivity, and long-run equilibrium outcomes.
+
+## Research Motivation
+
+Post-conflict economies often experience:
+
+Sudden capital destruction
+
+Institutional breakdown
+
+Human capital loss
+
+Volatility in growth
+
+Diverging long-run outcomes
+
+## This project investigates:
+
+How quickly economies recover after conflict
+
+Whether recovery restores previous equilibrium levels
+
+How structural productivity damage affects long-run output
+
+## Project Structure
+post-conflict-data-lab/
+│
+├── data/
+│   ├── rwanda_gdp_growth.csv
+│   └── bosnia_gdp_growth.csv
+│
+├── notebooks/
+│   ├── rwanda_recovery_analysis.ipynb
+│   ├── rwanda_vs_bosnia.ipynb
+│   ├── recovery_speed_analysis.ipynb
+│   ├── reconstruction_simulator.ipynb
+│   ├── solow_war_simulation.ipynb
+│   └── solow_productivity_shock.ipynb
+│
+├── images/
+└── README.md
+
+## 1. Empirical Recovery Analysis
+
+Using World Bank GDP growth data, we:
+
+Visualized post-conflict growth trajectories for Rwanda and Bosnia
+
+Identified contraction troughs
+
+Compared rebound patterns
+
+This stage provided empirical grounding before simulation.
+
+## 2. Recovery Speed Metrics
+
+We developed quantitative metrics to measure:
+
+Years to return to positive growth
+
+Years to sustained recovery
+
+Comparison to pre-conflict baseline averages
+
+This moved the analysis beyond visualization into measurable recovery dynamics.
+
+## 3. Reconstruction Simulation
+
+A deterministic growth simulation model was built to test:
+
+Different reconstruction intensities
+
+Temporary growth boosts
+
+Fading instability
+
+## Key insight:
+Small differences in post-conflict growth rates compound into large long-run output gaps.
+
+4. Calibrated Solow War-Shock Model
+
+We implemented a structural Solow growth model:
+
+𝑌
+𝑡
+=
+𝐾
+𝑡
+𝛼
+Y
+t
+	​
+
+=K
+t
+α
+	​
+
+𝐾
+𝑡
++
+1
+=
+𝑠
+𝑌
+𝑡
++
+(
+1
+−
+𝛿
+)
+𝐾
+𝑡
+K
+t+1
+	​
+
+=sY
+t
+	​
+
++(1−δ)K
+t
+	​
 
 
-A research-oriented data analysis repository focused on economic recovery patterns in post-conflict countries.
+## Key features:
 
-## Purpose
+Steady-state calibration
 
-This lab explores macroeconomic recovery trends using publicly available datasets such as World Bank Open Data and IMF databases.
+40% capital destruction shock
 
-## The goal is to study:
+Transitional recovery paths
 
-GDP recovery curves
+Savings-rate sensitivity
 
-Post-conflict stabilization patterns
+This introduced equilibrium-based recovery dynamics.
 
-Long-term growth trajectories
+5. Productivity Shock & Hysteresis
 
-Structural economic shifts
+We extended the Solow framework to include productivity 
+𝐴
+A:
 
-## Tools
+𝑌
+𝑡
+=
+𝐴
+𝑡
+𝐾
+𝑡
+𝛼
+Y
+t
+	​
+
+=A
+t
+	​
+
+K
+t
+α
+	​
+
+
+We compared:
+
+Temporary productivity loss
+
+Permanent productivity loss
+
+## Key insight:
+
+Temporary capital shocks allow full recovery
+
+Permanent productivity damage lowers steady-state capital and output
+
+Institutional scarring creates long-run output gaps
+
+Core Economic Insights
+
+Capital destruction alone does not guarantee permanent output loss.
+
+Permanent productivity damage shifts equilibrium downward.
+
+Higher savings accelerates convergence but cannot fully offset structural scarring.
+
+Institutional recovery is as important as physical reconstruction.
+
+## Tools Used
 
 Python
+
+NumPy
 
 Pandas
 
@@ -27,43 +205,14 @@ Matplotlib
 
 Jupyter Notebook
 
-Structure
+## Future Extensions
 
-data/ – Raw datasets
+Endogenous savings behavior
 
-notebooks/ – Exploratory analysis
+Government reconstruction financing
 
-scripts/ – Clean reproducible scripts
+Debt-growth tradeoffs
 
-Images/ – Visual outputs
+Population growth integration
 
-## First Case Study
-
-
-
-Rwanda – GDP growth trends following the 1994 genocide.
-
-
-## Key Insight
-
-Rwanda experienced a sharp contraction in GDP growth in the mid-1990s
-following the 1994 genocide. The data shows a strong recovery phase
-in the late 1990s and early 2000s, indicating rapid economic stabilization.
-
-## Comparative Analysis: Rwanda vs Bosnia
-
-This comparison examines GDP growth trajectories following major conflict periods.
-
-- Rwanda (Genocide: 1994) shows a sharp contraction followed by rapid recovery.
-- Bosnia (War: 1992–1995) exhibits significant volatility and a slower stabilization phase.
-
-Vertical markers indicate the onset of major conflict periods.
-
-Both Rwanda and Bosnia experienced rapid post-conflict rebound in growth rates, returning to positive and above-baseline growth within one year of trough. This suggests that early post-conflict recovery in growth terms can be mechanically fast, even if longer-term structural stabilization differs.
-
-## Research Questions
-- How quickly do post-conflict economies return to positive growth?
-- How quickly do they exceed pre-conflict performance levels?
-
-
-
+Multi-country calibration using real GDP levels
