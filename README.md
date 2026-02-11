@@ -29,19 +29,34 @@ How structural productivity damage affects long-run output
 ## Project Structure
 post-conflict-data-lab/
 │
+
 ├── data/
-│   ├── rwanda_gdp_growth.csv
-│   └── bosnia_gdp_growth.csv
+
 │
-├── notebooks/
-│   ├── rwanda_recovery_analysis.ipynb
-│   ├── rwanda_vs_bosnia.ipynb
-│   ├── recovery_speed_analysis.ipynb
-│   ├── reconstruction_simulator.ipynb
-│   ├── solow_war_simulation.ipynb
-│   └── solow_productivity_shock.ipynb
+├── rwanda_gdp_growth.csv
+
 │
+└── bosnia_gdp_growth.csv
+│
+
+├──
+notebooks/
+│
+├── rwanda_recovery_analysis.ipynb
+│
+├── rwanda_vs_bosnia.ipynb
+│  
+├── recovery_speed_analysis.ipynb
+│ 
+├── reconstruction_simulator.ipynb
+│
+├── solow_war_simulation.ipynb
+│
+└── solow_productivity_shock.ipynb
+│
+
 ├── images/
+
 └── README.md
 
 ## 1. Empirical Recovery Analysis
